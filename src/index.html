@@ -1,0 +1,27 @@
+<!doctype html><!-- HTMLのバージョン情報を記述 -->
+<meta charset="utf-8"><!-- 文字コードを指定 -->
+
+<html><!-- これで囲まれた範囲がHTMLファイルの中身 -->
+  <head><!-- この中は準備部分 -->
+    <title>Test Game</title>
+    <style>
+      body{
+        background: #eee;
+      }
+      canvas{
+        background: #000;
+        display: block;
+        margin: auto;
+      }
+    </style>
+  </head>
+
+  <body><!-- この中が本体 -->
+    <img id="player" src="img/player.png">
+    <img id="enemy" src="img/enemy.png">
+    <img id="player_bullet" src="img/player_bullet.png">
+    <img id="enemy_bullet" src="img/enemy_bullet.png">
+    <canvas id="screen" width='240' height='320'></canvas>
+    <script src="js/game.js"></script>
+  </body>
+</html>
