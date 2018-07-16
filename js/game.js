@@ -1,4 +1,4 @@
-"use strict"
+use strict;
 
 var canvas, ctx;
 var img_player;
